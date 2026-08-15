@@ -19,7 +19,7 @@ Mass assignment occurs when software frameworks automatically bind request param
 1. Logged into the target application using standard credentials (`wiener:peter`).
 2. Added the target item (**Lightweight "l33t" Leather Jacket** / Product ID `1`) to the shopping cart.
 3. Attempted to place an order, resulting in an `INSUFFICIENT_FUNDS` error due to zero store credit (`$0.00`).
-
+ ![IMAGE](IMAGES-3/3.png)
 ### Step 2: Traffic Analysis & Field Discovery
 1. Examined proxy HTTP history in **Burp Suite**.
 2. Inspected the `GET /api/checkout` API response:
